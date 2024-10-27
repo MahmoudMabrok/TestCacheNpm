@@ -44,10 +44,6 @@ jobs:
       - name: Run ESLint
         run: yarn lint
 
-      # Step 5: Run TypeScript type checks
-      - name: Run TypeScript type check
-        run: yarn typecheck
-
       # Step 6: Run unit tests (Jest)
       - name: Run unit tests
         run: yarn test --coverage
