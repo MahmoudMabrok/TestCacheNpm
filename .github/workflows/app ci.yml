@@ -73,7 +73,7 @@ jobs:
           cache: 'gradle'
 
       - name: Build Android
-        run: npm build:android
+        run: npm android
 
   # Job for iOS build
   build-ios:
@@ -96,4 +96,4 @@ jobs:
         run: npm i --legacy-peer-deps
 
       - name: Build iOS
-        run: npm ios:build
+        run: npm ios
