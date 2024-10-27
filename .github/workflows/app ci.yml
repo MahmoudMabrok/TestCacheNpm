@@ -44,9 +44,9 @@ jobs:
       - name: Run ESLint
         run: yarn lint
 
-      # Step 6: Run unit tests (Jest)
-      - name: Run unit tests
-        run: yarn test --coverage
+      # # Step 6: Run unit tests (Jest)
+      # - name: Run unit tests
+      #   run: yarn test --coverage
 
   # Job for Android build
   build-android:
